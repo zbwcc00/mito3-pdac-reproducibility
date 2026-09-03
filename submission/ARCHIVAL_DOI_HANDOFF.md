@@ -1,16 +1,16 @@
 # Archival DOI handoff
 
-The release is prepared locally, but no GitHub or Zenodo credentials are
-available in this environment, so an archival DOI has not been minted.
+The `v1.0.0` release is published on GitHub and archived in Zenodo.
 
-1. Create the public GitHub repository and push branch `main` from this
-   directory. The first release commit is recorded in the local Git history.
-2. Create a GitHub release tagged `v1.0.0` from the release commit.
-3. Enable the repository in Zenodo, import the GitHub release, review the
-   metadata in `zenodo.json`, and publish the Zenodo record.
-4. Replace the DOI placeholder in the manuscript Data and code availability
-   statement and `CITATION.cff` with the DOI returned by Zenodo.
-5. Record the DOI, repository URL, release tag, and final commit in the
+- Repository: https://github.com/zbwcc00/mito3-pdac-reproducibility
+- Release tag: `v1.0.0`
+- Version DOI: `10.5281/zenodo.22281619`
+- Concept DOI (all versions): `10.5281/zenodo.22281618`
+
+1. Keep the published `v1.0.0` tag immutable.
+2. Record any post-publication metadata correction as a new commit or release;
+   do not rewrite the published tag.
+3. Keep the DOI, repository URL, release tag, and final commit in the
    submission audit, then rerun `verify_package.py`.
 
 Do not upload PRINCE source CSV/TSV files, participant-level outputs, raw GEO

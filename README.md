@@ -66,7 +66,7 @@ reproduce the PRINCE association.
 - Third-party raw data and any access-controlled materials.
 - Local caches, virtual environments, downloaded third-party software, and raw
   data whose redistribution terms are not verified here.
-- The archival DOI has not yet been minted; `zenodo.json` is ready for upload.
+- Release `v1.0.0` is archived at DOI `10.5281/zenodo.22281619`.
 
 ## Integrity check
 
