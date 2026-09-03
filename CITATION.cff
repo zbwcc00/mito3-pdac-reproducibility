@@ -3,6 +3,7 @@ message: "If you use this code or derived release, please cite the repository an
 title: "Mito3 response association in pancreatic ductal adenocarcinoma: reproducibility release"
 version: "1.0.1"
 date-released: 2026-09-03
+doi: "10.5281/zenodo.22282838"
 repository-code: "https://github.com/zbwcc00/mito3-pdac-reproducibility"
 type: software
 authors:
