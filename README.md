@@ -1,4 +1,4 @@
-# Mito3 reproducibility release (v1.0.0)
+# Mito3 reproducibility release (v1.0.1)
 
 ## Scope
 
@@ -66,7 +66,8 @@ reproduce the PRINCE association.
 - Third-party raw data and any access-controlled materials.
 - Local caches, virtual environments, downloaded third-party software, and raw
   data whose redistribution terms are not verified here.
-- Release `v1.0.0` is archived at DOI `10.5281/zenodo.22281619`.
+- Release `v1.0.1` is the metadata-corrected archival release; its version DOI
+  is recorded in the release metadata after publication.
 
 ## Integrity check
 

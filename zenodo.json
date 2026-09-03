@@ -3,7 +3,7 @@
   "description": "Code, provenance manifests, aggregate results, and publication figures for the bounded Mito3 response-association analysis. PRINCE participant-level source files are not redistributed.",
   "upload_type": "software",
   "publication_date": "2026-09-03",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creators": [
     {"name": "Zheng, Bowen", "orcid": "0009-0006-8304-7905"},
     {"name": "Zhang, Yuntao", "orcid": "0009-0004-2130-9928"},
