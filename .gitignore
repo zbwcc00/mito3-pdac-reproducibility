@@ -1,0 +1,19 @@
+# Local and generated caches
+__pycache__/
+*.pyc
+.Rhistory
+.Rproj.user/
+
+# Source-data and runtime exclusions
+raw_data/
+incoming_data/
+virtualenv/
+.venv/
+*.rds
+*.h5ad
+*.h5
+
+# Credentials and local secrets
+.env
+*.token
+*.key

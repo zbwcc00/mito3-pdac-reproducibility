@@ -1,0 +1,4 @@
+source	repository	commit	relative_path	bytes	sha256
+GitHub archive	https://github.com/ParkerICI/prince-trial-data	c01cf276b1cef27e61f7349bccfac37c0c1d6ab7	data/01_source_data/PRINCE_ParkerICI_c01cf276b1cef27e61f7349bccfac37c0c1d6ab7.zip	28292547	3f7e268858214ef126eeef2b0004ea80ed66864eecd2419471714068fbf2002a
+GitHub source file	https://github.com/ParkerICI/prince-trial-data	c01cf276b1cef27e61f7349bccfac37c0c1d6ab7	Clinical/PICI0002_ph2_clinical.csv	26560	412a4ee252662f1141dbb96ec4ca4fb743e0655f1acb6cfc3b161c6d5dd1c7a0
+GitHub source file	https://github.com/ParkerICI/prince-trial-data	c01cf276b1cef27e61f7349bccfac37c0c1d6ab7	RNAseq/NatureMed_GX_ph2_metadata.csv	5968	3caccc58ca644ddd7ace1eb987cbb8b8065d803394f9214462f58e64fb614141

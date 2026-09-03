@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or derived release, please cite the repository and the Mito3 manuscript."
+title: "Mito3 response association in pancreatic ductal adenocarcinoma: reproducibility release"
+version: "1.0.0"
+date-released: 2026-09-03
+type: software
+authors:
+  - family-names: Zheng
+    given-names: Bowen
+    orcid: "https://orcid.org/0009-0006-8304-7905"
+  - family-names: Zhang
+    given-names: Yuntao
+    orcid: "https://orcid.org/0009-0004-2130-9928"
+  - family-names: Li
+    given-names: Hao
+    orcid: "https://orcid.org/0009-0007-7394-1273"
+abstract: >-
+  Reproducibility materials for the bounded Mito3 response-association analysis
+  in pancreatic ductal adenocarcinoma. The release contains code, fixed-source
+  manifests, aggregate results, and publication figures; it does not contain
+  PRINCE participant-level source files.
+keywords:
+  - pancreatic ductal adenocarcinoma
+  - Mito3
+  - reproducibility
+  - immunotherapy
+license: MIT

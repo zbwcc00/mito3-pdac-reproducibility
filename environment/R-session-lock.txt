@@ -1,0 +1,11 @@
+# Captured with R 4.4.3 (ucrt) on Windows x86_64, 2026-09-03.
+# Bioconductor release: 3.20.
+BiocManager==1.30.26
+SingleCellExperiment==1.28.1
+scDblFinder==1.20.2
+SecAct==1.1.0
+Seurat==5.5.1
+Matrix==1.7-5
+ggplot2==4.0.3
+dplyr==1.2.1
+data.table==1.18.0

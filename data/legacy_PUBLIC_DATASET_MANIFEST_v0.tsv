@@ -1,0 +1,23 @@
+accession	data_type	sample_or_case_count	patient_endpoint	primary_role	access_url
+TCGA-PAAD	bulk_RNA_multiomics	185 cases; ~183 expression files	OS/DSS/PFS/stage	discovery	https://portal.gdc.cancer.gov/projects/TCGA-PAAD
+paad_cptac_2021	RNA_protein_phosphoprotein_multiomics	~140 patients	OS; PNI; LVI; pT/pN; lymph_nodes; residual_tumor	external_multimodal_and_surgical_validation	https://github.com/cBioPortal/datahub/tree/master/public/paad_cptac_2021
+GSE57495	bulk_microarray_LCM	63 samples	OS_month; vital_status; stage	external_OS_validation	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57495
+GSE62452	bulk_microarray	130 samples; 69 tumors	survival_months; survival_status; grade; stage	external_OS_and_tumor_normal	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62452
+GSE85916	FFPE_bulk_mRNA	80 samples	OS_year; death	external_OS_validation	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85916
+GSE62165	bulk_microarray	131 samples; 118 PDAC	stage; tissue	molecular_subtype_and_expression_sensitivity	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62165
+GSE71729	bulk_microarray_virtual_microdissection	357 samples	sample_type	tumor_stroma_metastasis_context_only	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71729
+GSE93326	LCM_RNAseq	204 samples; 65 tumor-stroma pairs + 15 bulk	compartment; patient_id	epithelium_stroma_replication	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93326
+GSE131050	RNAseq_PurIST	191 samples	PDAC expression; clinical fields to audit	subtype_adjustment_and_external_state	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131050
+GSE155698	scRNAseq	41 samples; 16 PDA + 3 adjacent + 20 PBMC	tumor_and_peripheral_immune_landscape	myeloid_cell_state	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155698
+GSE154778	scRNAseq	16 samples	primary_and_metastatic_biopsies	tumor_myeloid_state_and_metastasis	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154778
+GSE156405	scRNAseq	17 samples; 9 biopsies + 8 PBMC	tumor_stromal_heterogeneity	cell_communication_support	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156405
+GSE111672	scRNAseq_spatial	23 GEO samples; 6 patients	spatial_tissue_architecture	primary_spatial_mechanistic_validation	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111672
+GSE282302	Visium_FFPE_spatial	108 samples; patient count to reconcile	post_FOLFIRINOX_treatment	treatment_context_spatial_support	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282302
+GSE310352	CosMx_spatial	8 samples	treatment_naive_FFPE	exploratory_spatial_replication	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310352
+GSE336517	GeoMx_DSP	149 AOI/sample records	cell_type; tissue; patient metadata	myeloid_spatial_support	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE336517
+GSE335452	scRNAseq_spatial	15 samples; 5 patients	CD8 exhaustion context	competitive_immune_explanation	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335452
+GSE313662	Xenium_spatial	6 samples	neoadjuvant FOLFIRINOX+nivolumab	exploratory_treatment_response	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313662
+SEER	clinical_registry	large population	surgery; stage; survival	clinical_generalizability_only	https://seer.cancer.gov/
+MIMIC-IV	ICU_clinical	large critical_care_cohort	ICU outcomes; no tumor transcriptomics	not_in_main_PDACPAPER	https://physionet.org/content/mimiciv/
+NHANES	population_health	population survey	metabolic and mortality; no tumor data	not_in_main_PDACPAPER	https://www.cdc.gov/nchs/nhanes/
+CHARLS	population_health	older adult cohort	health and mortality; no tumor data	not_in_main_PDACPAPER	https://charls.pku.edu.cn/

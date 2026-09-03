@@ -1,0 +1,8 @@
+dataset	module	n_prespecified	n_present	coverage	present_genes	missing_genes
+GSE240078	death_pathway_exclusion	6	2	0.333333333333333	RIPK3;GPX4	CASP1;GSDMD;MLKL;ACSL4
+GSE240078	innate_inflammatory_context	1	0	0		NLRP3
+GSE240078	innate_input	8	6	0.75	TLR2;TLR7;MYD88;TNFRSF1A;TNFRSF1B;TNF	TLR4;TLR8
+GSE240078	mTORC2_membrane_dynamics	3	3	1	MTOR;RICTOR;AKT1	
+GSE240078	membrane_cytoskeleton	6	3	0.5	RHOA;RAC1;ACTB	CDC42;ARPC2;ARPC3
+GSE240078	mitochondrial_oxidative	4	1	0.25	BAX	BAK1;BID;PPIF
+GSE240078	myeloid_ecology	3	1	0.333333333333333	SPP1	IL1B;CXCL3
