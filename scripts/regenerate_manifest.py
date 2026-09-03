@@ -17,7 +17,11 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    paths = sorted(path for path in ROOT.rglob("*") if path.is_file() and path != MANIFEST)
+    paths = sorted(
+        path
+        for path in ROOT.rglob("*")
+        if path.is_file() and path != MANIFEST and ".git" not in path.relative_to(ROOT).parts
+    )
     rows = [(path.relative_to(ROOT).as_posix(), "staging-package", path.stat().st_size, sha256(path)) for path in paths]
     with MANIFEST.open("w", encoding="utf-8", newline="") as handle:
         handle.write("release_relative_path\toriginal_project_relative_path\tbytes\tsha256\n")
