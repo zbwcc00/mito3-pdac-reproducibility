@@ -1,0 +1,8 @@
+provider	resource	license_spdx_or_figshare	checked_at_utc	evidence_url	decision
+GitHub	ParkerICI/prince-trial-data	NOT_FOUND	2026-09-03T10:49:00Z	https://api.github.com/repos/ParkerICI/prince-trial-data	link only; do not rehost source files
+GitHub	cBioPortal/datahub	NOT_FOUND	2026-09-03T10:49:00Z	https://api.github.com/repos/cBioPortal/datahub	link only; do not assume redistribution rights
+GitHub	data2intelligence/SecAct	GPL-3.0	2026-09-03T10:49:00Z	https://api.github.com/repos/data2intelligence/SecAct	third-party source; not bundled
+GitHub	lynn-1998/UniPert	GPL-3.0	2026-09-03T10:49:00Z	https://api.github.com/repos/lynn-1998/UniPert	third-party source; not bundled
+GitHub	lmcinnes/umap	BSD-3-Clause	2026-09-03T10:49:00Z	https://api.github.com/repos/lmcinnes/umap	cited dependency; not bundled
+Figshare	DepMap 24Q4 Public	CC BY 4.0	2026-09-03T10:49:00Z	https://api.figshare.com/v2/articles/27993248	link to DOI; raw data not bundled
+Figshare	PRISM Repurposing 19Q3 Primary Screen	CC BY 4.0	2026-09-03T10:49:00Z	https://api.figshare.com/v2/articles/9393293	link to DOI; raw data not bundled
