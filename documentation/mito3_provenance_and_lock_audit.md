@@ -18,7 +18,10 @@ The retained local record supports a **two-stage provenance**, not a prospective
 - The `BAX`/`BAK1`/`BID` mitochondrial-effector core was mechanistically specified before the PRINCE clinical files entered the project.
 - The exact focal name `Mito3` and its elevation to the manuscript's primary response-associated score occurred after the initial PRINCE seven-module response screen. PRINCE must therefore remain a discovery/internal-association cohort.
 - The corrected three-gene rule, observed direction, and intended analysis were documented before the GSE248014 expression file entered the project. GSE248014 can therefore be described as a locally documented frozen transportability audit.
-- The record is not prospective preregistration. The project has no Git repository, public timestamp, OSF registration, or other immutable third-party record. NTFS creation and modification times are supportive provenance only.
+- The record is not prospective preregistration. A Git repository and Zenodo
+  release were created after the analysis and therefore do not provide a
+  pre-analysis public timestamp, OSF registration, or other prospective record.
+  NTFS creation and modification times remain supportive provenance only.
 
 ## Reconstructed timeline
 
@@ -81,7 +84,9 @@ Avoid:
 
 ## Provenance limitations
 
-- No Git repository was present at the project root during this audit.
+- The GitHub repository and Zenodo release were created after this analysis;
+  they document the final release but do not retroactively establish
+  prospective preregistration.
 - No OSF/AsPredicted/public protocol timestamp was identified.
 - Windows creation and modification times can be altered by copying or manual changes.
 - Current SHA-256 hashes preserve the state observed on 2026-08-29 but do not retroactively make earlier files immutable.

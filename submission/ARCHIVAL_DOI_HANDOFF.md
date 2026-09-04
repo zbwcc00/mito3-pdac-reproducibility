@@ -1,18 +1,19 @@
 # Archival DOI handoff
 
-The `v1.0.2` release adds the PRINCE OS/PFS survival sensitivity analysis. The
-earlier `v1.0.1` and `v1.0.0` releases remain immutable.
+The `v1.0.3` release is a post-publication documentation and figure-consistency
+correction. The earlier `v1.0.2`, `v1.0.1`, and `v1.0.0` releases remain immutable.
 
 - Repository: https://github.com/zbwcc00/mito3-pdac-reproducibility
-- Release tag: `v1.0.2`
-- Version DOI: `10.5281/zenodo.22297472`
+- Release tag: `v1.0.3`
+- Version DOI: to be recorded after Zenodo archival
+- Previous version DOI: `10.5281/zenodo.22297472` (`v1.0.2`)
 - Concept DOI (all versions): `10.5281/zenodo.22281618`
 
 1. Keep the published `v1.0.0` and `v1.0.1` tags immutable.
 2. Record any post-publication metadata correction as a new commit or release;
    do not rewrite the published tag.
-3. Keep the DOI, repository URL, release tag, and final commit in the
-   submission audit, then rerun `verify_package.py`.
+3. After archival, keep the DOI, repository URL, release tag, and final commit
+   in the submission audit, then rerun `verify_package.py`.
 
 Do not upload PRINCE source CSV/TSV files, participant-level outputs, raw GEO
 files, virtual environments, or third-party software archives. The source

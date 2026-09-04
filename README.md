@@ -1,4 +1,4 @@
-# Mito3 reproducibility release (v1.0.2)
+# Mito3 reproducibility release (v1.0.3)
 
 ## Scope
 
@@ -73,6 +73,8 @@ reproduce the PRINCE association.
 - Release `v1.0.2` adds the PRINCE OS/PFS survival sensitivity analysis and is
   archived at DOI `10.5281/zenodo.22297472`; the concept DOI for all versions
   is `10.5281/zenodo.22281618`.
+- Release `v1.0.3` is a post-publication documentation and figure-consistency
+  correction. Its version-specific DOI will be recorded after Zenodo archival.
 
 ## Integrity check
 

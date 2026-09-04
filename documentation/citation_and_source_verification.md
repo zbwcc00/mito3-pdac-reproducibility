@@ -1,6 +1,6 @@
 # Citation and data-source verification report (v1)
 
-**Audit date:** 2026-08-29  
+**Audit date:** 2026-09-04 (post-release status update; source checks below were performed on 2026-08-29)
 **Scope frozen before verification:** `citation_and_data_source_claim_inventory_v1.tsv` (13 literature claims, 13 data resources, and 6 software/portal resources).
 
 ## Overall conclusion
@@ -20,7 +20,7 @@ References 14–28 now close that gap.
 | Existing literature claims L01–L13 | 13/13 pass | Each DOI resolved to the cited title and supported the stated context; none was used to claim a causal Mito3 mechanism or clinical efficacy. |
 | GEO/CPTAC/TCGA/DepMap/PRISM source claims D02–D12 | 11/11 pass | GEO accession pages and linked original papers support cohort identity; cBioPortal study IDs and exact DepMap/PRISM file hashes were confirmed. |
 | Software/portal claims S01–S04, S06 | 5/5 pass | Versions and primary citations were confirmed from local package metadata, the runtime, or official records. |
-| Provenance items D01, D13, S05 | 3 partial | Local files are internally auditable, but one stable public acquisition record or immutable source revision is still absent for each. |
+| Provenance items D13, S05 | 2 partial | Local files are internally auditable, but one stable public acquisition record or immutable source revision is still absent for each. D01 is now closed by the fixed ParkerICI commit, archive checksum, and public release link. |
 
 ## Corrected timeline wording
 
@@ -53,7 +53,7 @@ score definition before the GSE248014 transportability audit.
    `CRISPRGeneDependency.csv` and PRISM primary-screen files. The
    reported data type and directionality are therefore traceable.
 
-## Residual submission requirements
+## Remaining provenance limitations
 
 These are reproducibility requirements, not analytic defects:
 
@@ -66,9 +66,9 @@ These are reproducibility requirements, not analytic defects:
   already recorded model checksum. The analysis must remain labelled
   **UniPert-assisted target-space prioritization**, not UniPert-G2CP
   perturbation-phenotype validation.
-- Create the declared public code repository and archival DOI, then replace the
-  internal paths in the Data and code availability statement with the permanent
-  URL/DOI required by the target journal.
+- The public code repository and archival DOI are now available at GitHub tag
+  `v1.0.2` and DOI `10.5281/zenodo.22297472`; the manuscript availability
+  statement has been updated accordingly.
 
 ## Updated manuscript boundary
 

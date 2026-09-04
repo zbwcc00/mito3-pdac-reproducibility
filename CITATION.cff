@@ -1,9 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or derived release, please cite the repository and the Mito3 manuscript."
 title: "Mito3 response association in pancreatic ductal adenocarcinoma: reproducibility release"
-version: "1.0.2"
+version: "1.0.3"
 date-released: 2026-09-04
-doi: "10.5281/zenodo.22297472"
 repository-code: "https://github.com/zbwcc00/mito3-pdac-reproducibility"
 type: software
 authors:
