@@ -4,6 +4,7 @@ title: "Mito3 response association in pancreatic ductal adenocarcinoma: reproduc
 version: "1.0.3"
 date-released: 2026-09-04
 repository-code: "https://github.com/zbwcc00/mito3-pdac-reproducibility"
+doi: "10.5281/zenodo.22305977"
 type: software
 authors:
   - family-names: Zheng

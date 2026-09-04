@@ -74,7 +74,7 @@ reproduce the PRINCE association.
   archived at DOI `10.5281/zenodo.22297472`; the concept DOI for all versions
   is `10.5281/zenodo.22281618`.
 - Release `v1.0.3` is a post-publication documentation and figure-consistency
-  correction. Its version-specific DOI will be recorded after Zenodo archival.
+  correction, archived at DOI `10.5281/zenodo.22305977`.
 
 ## Integrity check
 

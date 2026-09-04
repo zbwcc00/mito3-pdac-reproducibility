@@ -5,7 +5,7 @@ correction. The earlier `v1.0.2`, `v1.0.1`, and `v1.0.0` releases remain immutab
 
 - Repository: https://github.com/zbwcc00/mito3-pdac-reproducibility
 - Release tag: `v1.0.3`
-- Version DOI: to be recorded after Zenodo archival
+- Version DOI: `10.5281/zenodo.22305977`
 - Previous version DOI: `10.5281/zenodo.22297472` (`v1.0.2`)
 - Concept DOI (all versions): `10.5281/zenodo.22281618`
 
