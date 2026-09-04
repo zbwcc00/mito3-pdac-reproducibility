@@ -20,7 +20,7 @@ References 14–28 now close that gap.
 | Existing literature claims L01–L13 | 13/13 pass | Each DOI resolved to the cited title and supported the stated context; none was used to claim a causal Mito3 mechanism or clinical efficacy. |
 | GEO/CPTAC/TCGA/DepMap/PRISM source claims D02–D12 | 11/11 pass | GEO accession pages and linked original papers support cohort identity; cBioPortal study IDs and exact DepMap/PRISM file hashes were confirmed. |
 | Software/portal claims S01–S04, S06 | 5/5 pass | Versions and primary citations were confirmed from local package metadata, the runtime, or official records. |
-| Provenance items D13, S05 | 2 partial | Local files are internally auditable, but one stable public acquisition record or immutable source revision is still absent for each. D01 is now closed by the fixed ParkerICI commit, archive checksum, and public release link. |
+| Provenance items D13, S05 | 2/2 pass | D13 has a dated API capture with request/response hashes; S05 has an immutable UniPert commit, source archive checksum, and pinned model URL/local checksum. D01 is closed by the fixed ParkerICI commit, archive checksum, and public release link. |
 
 ## Corrected timeline wording
 
@@ -61,14 +61,18 @@ These are reproducibility requirements, not analytic defects:
   repository at commit `c01cf276b1cef27e61f7349bccfac37c0c1d6ab7` and retain
   its archive and public-file checksums. Do not rehost PRINCE source files:
   the official repository has no explicit repository-level data license.
-- Preserve a dated L1000FWD download/API log with the two hashed input files.
-- Preserve a UniPert source revision or source-archive checksum alongside the
-  already recorded model checksum. The analysis must remain labelled
-  **UniPert-assisted target-space prioritization**, not UniPert-G2CP
+- The dated L1000FWD API capture is retained in
+  `documentation/l1000fwd_provenance_2026-09-04/`; because the service exposes
+  no release identifier, the snapshot is pinned by endpoint, UTC timestamps,
+  request JSON, result IDs, raw response hashes, and the two input-file hashes.
+- The UniPert source revision and archive checksum are retained in
+  `documentation/unipert_provenance_2026-09-04.json`. The analysis remains
+  labelled **UniPert-assisted target-space prioritization**, not UniPert-G2CP
   perturbation-phenotype validation.
-- The public code repository and archival DOI are now available at GitHub tag
-  `v1.0.2` and DOI `10.5281/zenodo.22297472`; the manuscript availability
-  statement has been updated accordingly.
+- The previous archival DOI remains available at GitHub tag `v1.0.2` and DOI
+  `10.5281/zenodo.22297472`. The `v1.0.3` tag is a separate immutable release
+  candidate awaiting Zenodo archival; these new provenance records are
+  post-tag evidence and must not be silently retrofitted into that tag.
 
 ## Updated manuscript boundary
 

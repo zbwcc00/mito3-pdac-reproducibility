@@ -1,6 +1,6 @@
 # Third-party licence and checksum audit
 
-**Audit date:** 2026-09-03  
+**Audit date:** 2026-09-04
 **Release candidate:** `public_reproducibility_repo_v1`
 
 ## Scope and method
@@ -20,16 +20,15 @@ the absence of a licence file.
 | PRISM Repurposing 19Q3/19Q4 primary screen | Figshare record `10.6084/m9.figshare.9393293.v4` declares CC BY 4.0; local MD5 values are in the citation manifest. | Do not bundle raw files; cite the DOI and retain local checksums. |
 | GEO accessions | NCBI GEO public records and the accession-specific source files are cited; GEO terms remain applicable. | Release accession links and derived non-participant-level summaries only. |
 | cBioPortal Datahub | GitHub API returned no repository licence. | Release processing code and aggregate outputs; do not assume redistribution rights for downloaded study files. |
-| SecAct and UniPert | Source repositories and model provenance are cited; UniPert source revision remains partial. | Keep third-party source trees/checkpoints out of the release and retain the recorded model checksum. |
+| SecAct and UniPert | UniPert is pinned to official commit `2f5d46930dcbdeb92073a13e898abe6e363e679a`; source archive and model SHA-256 are recorded in `documentation/unipert_provenance_2026-09-04.json`. | Keep third-party source trees/checkpoints out of the release; retain only provenance metadata and the recorded model checksum. |
 
 ## Checksums
 
 The release `MANIFEST.tsv` contains SHA-256 values for every file shipped here.
 PRINCE fixed-source checksums are retained in
 `results/PRINCE_official_source_manifest.tsv`; DepMap and PRISM local checksums
-are retained in the citation manifest. The L1000FWD retrieval log and a stable
-UniPert source archive are still required before claiming a fully closed source
-audit.
+are retained in the citation manifest. The L1000FWD retrieval log and stable
+UniPert source archive checksum are retained in the dated provenance records.
 
 ## Interpretation
 

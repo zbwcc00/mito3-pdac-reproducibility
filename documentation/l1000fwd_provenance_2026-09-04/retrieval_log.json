@@ -1,0 +1,156 @@
+{
+  "provenance_schema": "l1000fwd-api-retrieval-v1",
+  "captured_at_utc": "2026-09-04T13:13:56.410924Z",
+  "service": "L1000FWD",
+  "base_url": "https://maayanlab.cloud/l1000fwd/",
+  "source_release": null,
+  "source_release_note": "The public API does not expose a release identifier in the captured response; endpoint and response bytes are therefore pinned by URL, timestamp, result_id, and SHA-256.",
+  "script_commit_at_capture": "0a91c611df2e75418835063013fbafe18eeb4a87",
+  "queries": [
+    {
+      "query_name": "high_module_state",
+      "search": {
+        "retrieval_started_utc": "2026-09-04T13:13:16.114297Z",
+        "retrieval_completed_utc": "2026-09-04T13:13:29.920755Z",
+        "method": "POST",
+        "endpoint": "https://maayanlab.cloud/l1000fwd/sig_search",
+        "request_json": {
+          "up_genes": [
+            "BAX",
+            "BAK1",
+            "BID",
+            "TLR2",
+            "TLR4",
+            "TLR7",
+            "TLR8",
+            "MYD88",
+            "TNFRSF1A",
+            "TNFRSF1B",
+            "TNF",
+            "IL1B",
+            "SPP1"
+          ],
+          "down_genes": []
+        },
+        "http_status": 200,
+        "result_id": "6a9ac3f98c3024002de5534d",
+        "response_file": "high_module_state.sig_search.response.json",
+        "response_sha256": "07e7636c73e472d770b36b5e414427e34d02b4a8b2b424713d8a41e5698fc2e7"
+      },
+      "result_topn": {
+        "retrieval_started_utc": "2026-09-04T13:13:29.365610Z",
+        "retrieval_completed_utc": "2026-09-04T13:13:29.921267Z",
+        "method": "GET",
+        "endpoint": "https://maayanlab.cloud/l1000fwd/result/topn/6a9ac3f98c3024002de5534d",
+        "http_status": 200,
+        "response_file": "high_module_state.result_topn.response.json",
+        "response_sha256": "b0241090befa27d5a9cf131f0d832d0292e66c288c70091d5557513e2ecb01e9",
+        "top_level_keys": [
+          "opposite",
+          "similar"
+        ]
+      }
+    },
+    {
+      "query_name": "high_inflammatory_low_mito",
+      "search": {
+        "retrieval_started_utc": "2026-09-04T13:13:29.921803Z",
+        "retrieval_completed_utc": "2026-09-04T13:13:43.397293Z",
+        "method": "POST",
+        "endpoint": "https://maayanlab.cloud/l1000fwd/sig_search",
+        "request_json": {
+          "up_genes": [
+            "TLR2",
+            "TLR4",
+            "TLR7",
+            "TLR8",
+            "MYD88",
+            "TNFRSF1A",
+            "TNFRSF1B",
+            "TNF",
+            "IL1B",
+            "SPP1"
+          ],
+          "down_genes": [
+            "BAX",
+            "BAK1",
+            "BID"
+          ]
+        },
+        "http_status": 200,
+        "result_id": "6a9ac4068c3024002de5534e",
+        "response_file": "high_inflammatory_low_mito.sig_search.response.json",
+        "response_sha256": "1c76b50e27771455ac3610ff3526a43e6ff4a58d9b1e32500f8035045f08c650"
+      },
+      "result_topn": {
+        "retrieval_started_utc": "2026-09-04T13:13:42.833952Z",
+        "retrieval_completed_utc": "2026-09-04T13:13:43.397293Z",
+        "method": "GET",
+        "endpoint": "https://maayanlab.cloud/l1000fwd/result/topn/6a9ac4068c3024002de5534e",
+        "http_status": 200,
+        "response_file": "high_inflammatory_low_mito.result_topn.response.json",
+        "response_sha256": "0b4bf25138af6db37f78322bd2446639051f3d5178d41eb1dfcbfa79dfb916e2",
+        "top_level_keys": [
+          "opposite",
+          "similar"
+        ]
+      }
+    },
+    {
+      "query_name": "high_mito_low_inflammatory",
+      "search": {
+        "retrieval_started_utc": "2026-09-04T13:13:43.397293Z",
+        "retrieval_completed_utc": "2026-09-04T13:13:56.206546Z",
+        "method": "POST",
+        "endpoint": "https://maayanlab.cloud/l1000fwd/sig_search",
+        "request_json": {
+          "up_genes": [
+            "BAX",
+            "BAK1",
+            "BID"
+          ],
+          "down_genes": [
+            "TLR2",
+            "TLR4",
+            "TLR7",
+            "TLR8",
+            "MYD88",
+            "TNFRSF1A",
+            "TNFRSF1B",
+            "TNF",
+            "IL1B",
+            "SPP1"
+          ]
+        },
+        "http_status": 200,
+        "result_id": "6a9ac4138c3024002de5534f",
+        "response_file": "high_mito_low_inflammatory.sig_search.response.json",
+        "response_sha256": "38a4936b29bddacdb9e59fc44090e2aca26ff4ccdc7de5f97e2ce544267d5730"
+      },
+      "result_topn": {
+        "retrieval_started_utc": "2026-09-04T13:13:55.651349Z",
+        "retrieval_completed_utc": "2026-09-04T13:13:56.206546Z",
+        "method": "GET",
+        "endpoint": "https://maayanlab.cloud/l1000fwd/result/topn/6a9ac4138c3024002de5534f",
+        "http_status": 200,
+        "response_file": "high_mito_low_inflammatory.result_topn.response.json",
+        "response_sha256": "ac3db228feb76637e340cf105c425f9810919bd53ec08efd79a17ba0c0ddb23c",
+        "top_level_keys": [
+          "opposite",
+          "similar"
+        ]
+      }
+    }
+  ],
+  "input_files": [
+    {
+      "path": "D:\\\u7b2c\u4e5d\u7bc7\u5927\u8bba\u6587\\incoming_data\\LINCS_L1000FWD\\CD_signature_metadata.csv",
+      "sha256": "b4495715d35f9bc17412c5ffa900d802812b25419ecd6291be6dd6fa4f38a557"
+    },
+    {
+      "path": "D:\\\u7b2c\u4e5d\u7bc7\u5927\u8bba\u6587\\incoming_data\\LINCS_L1000FWD\\CD_signatures_binary_42809.gmt",
+      "sha256": "8d68f5d26eff89a74ffc285b88ce7308ece66a7f883182012e94eef72b433b0c"
+    }
+  ],
+  "interpretation_limitation": "This is an exploratory top-50 signature-ranking screen. It does not establish clinical efficacy, and cell line, dose, time, and batch heterogeneity remain unresolved."
+}

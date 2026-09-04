@@ -1,0 +1,18 @@
+{
+  "provenance_schema": "unipert-source-model-v1",
+  "captured_at_utc": "2026-09-04T13:20:00Z",
+  "repository_url": "https://github.com/lynn-1998/UniPert",
+  "repository_commit": "2f5d46930dcbdeb92073a13e898abe6e363e679a",
+  "repository_commit_date": "2026-05-26T07:06:10Z",
+  "repository_commit_message": "Merge branch 'TencentAILabHealthcare:main' into main",
+  "source_archive_url": "https://github.com/lynn-1998/UniPert/archive/2f5d46930dcbdeb92073a13e898abe6e363e679a.tar.gz",
+  "source_archive_sha256": "EABA4C65D8543AEA674E7B0CF44A0A2C5B789ED2FD3480DB50AD9CEC26E4FBDB",
+  "source_license_file": "GPL-3.0 (repository LICENSE file)",
+  "model_url": "https://raw.githubusercontent.com/lynn-1998/UniPert/2f5d46930dcbdeb92073a13e898abe6e363e679a/current_model/unipert_model.pt",
+  "model_local_path": "external_tools/downloads/UniPert-main/current_model/unipert_model.pt",
+  "model_sha256": "06B065C2768B440077BDB1488F654B310F67A04C01FCEB9F4791043558BFD322",
+  "model_remote_size_bytes": 3686831,
+  "model_local_size_bytes": 3686831,
+  "g2cp_checkpoint_status": "not downloaded; no phenotype-validation claim",
+  "interpretation_limitation": "The manuscript uses UniPert-assisted target-space prioritization only. This record does not support UniPert-G2CP perturbation-phenotype validation or redistribution of third-party source/model files."
+}
