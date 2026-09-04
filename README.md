@@ -1,4 +1,4 @@
-# Mito3 reproducibility release (v1.0.1)
+# Mito3 reproducibility release (v1.0.2)
 
 ## Scope
 
@@ -28,6 +28,7 @@ review. No new ethics approval or exemption is claimed.
 - `data/`: accession-level public-resource manifest.
 - `documentation/`: source verification, evidence mapping, and provenance audit.
 - `scripts/`: historical public-data analysis and figure-generation scripts.
+- `scripts/analyze_prince_mito3_survival.py`: post hoc OS/PFS sensitivity analysis and Kaplan–Meier export.
 - `environment/`: locked Python and R package versions plus OS requirements.
 - `results/`, `tables/`, and `figures/`: non-participant-level result snapshots
   and figures supporting the manuscript.
@@ -55,7 +56,9 @@ reachability record.
 Results here support exploratory molecular-context and pharmacologic-priority
 analyses. They do not establish a causal mechanism, drug efficacy, a
 deployable clinical response biomarker, calibration, clinical utility, or ICI
-treatment-effect modification. The GSE248014 analysis is an
+treatment-effect modification. The PRINCE OS/PFS outputs are post hoc
+survival sensitivity analyses and do not establish prognostic or predictive
+utility. The GSE248014 analysis is an
 response-association transportability audit in a cohort with three responders;
 its performance interval is not stably interpretable and its direction did not
 reproduce the PRINCE association.
@@ -66,7 +69,10 @@ reproduce the PRINCE association.
 - Third-party raw data and any access-controlled materials.
 - Local caches, virtual environments, downloaded third-party software, and raw
   data whose redistribution terms are not verified here.
-- Release `v1.0.1` is archived at DOI `10.5281/zenodo.22282838`.
+- Release `v1.0.1` remains archived at DOI `10.5281/zenodo.22282838`.
+- Release `v1.0.2` adds the PRINCE OS/PFS survival sensitivity analysis. Its
+  version-specific DOI will be recorded after the Zenodo archive is published;
+  the concept DOI for all versions is `10.5281/zenodo.22281618`.
 
 ## Integrity check
 

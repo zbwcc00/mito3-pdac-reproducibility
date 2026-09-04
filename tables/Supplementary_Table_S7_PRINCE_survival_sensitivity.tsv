@@ -1,0 +1,3 @@
+endpoint	n	events	mito3_median_split	low_group_n	high_group_n	cox_hr_per_score_sd_arm_adjusted	cox_ci_low	cox_ci_high	cox_p	median_split_logrank_p	analysis_role
+OS	38	27	0.0370884922135333	19	19	1.1708024598270474	0.813104408692114	1.685857788106173	0.39658617635192983	0.4432892332931726	post hoc exploratory survival sensitivity; no optimized cutoff
+PFS	38	32	0.0370884922135333	19	19	1.1567640265428982	0.8303124517826457	1.6115656343956886	0.38934138483879865	0.8939853849189864	post hoc exploratory survival sensitivity; no optimized cutoff
